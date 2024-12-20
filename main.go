@@ -6,6 +6,7 @@ import (
 	"adventofcode2015/p3"
 	"adventofcode2015/p4"
 	"adventofcode2015/p5"
+	"adventofcode2015/p6"
 	"fmt"
 	"io"
 	"os"
@@ -25,6 +26,7 @@ func main() {
 		&p3.Puzzle3{},
 		&p4.Puzzle4{},
 		&p5.Puzzle5{},
+		&p6.Puzzle6{},
 	}
 
 	var puzzleNum int
