@@ -2,6 +2,7 @@ package main
 
 import (
 	"adventofcode2015/p1"
+	"adventofcode2015/p2"
 	"fmt"
 	"io"
 	"os"
@@ -17,6 +18,7 @@ type Puzzle interface {
 func main() {
 	puzzles := []Puzzle{
 		&p1.Puzzle1{},
+		&p2.Puzzle2{},
 	}
 
 	var puzzleNum int
