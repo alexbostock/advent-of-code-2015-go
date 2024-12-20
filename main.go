@@ -3,6 +3,7 @@ package main
 import (
 	"adventofcode2015/p1"
 	"adventofcode2015/p2"
+	"adventofcode2015/p3"
 	"fmt"
 	"io"
 	"os"
@@ -19,6 +20,7 @@ func main() {
 	puzzles := []Puzzle{
 		&p1.Puzzle1{},
 		&p2.Puzzle2{},
+		&p3.Puzzle3{},
 	}
 
 	var puzzleNum int
